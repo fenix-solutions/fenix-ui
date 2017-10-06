@@ -1,0 +1,17 @@
+<div #inputRoot
+     class="mdc-textfield">
+    <input #input
+           type="text"
+           id="my-textfield"
+           class="mdc-textfield__input"
+           [required]="required"
+           (input)="onInput($event)"
+           (blur)="onBlur($event)">
+    <label #inputLabel
+           class="mdc-textfield__label"
+           for="my-textfield">{{label}}</label>
+</div>
+<p #inputHelpText
+   class="mdc-textfield-helptext mdc-textfield-helptext--validation-msg">
+    {{validationMessage}}
+</p>

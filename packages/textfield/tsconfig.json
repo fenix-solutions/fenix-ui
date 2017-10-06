@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "../../dist/packages/textfield"
+    },
+    "files": [
+        "./src/index.ts"
+    ]
+}

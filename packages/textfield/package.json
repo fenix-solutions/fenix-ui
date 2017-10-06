@@ -1,0 +1,26 @@
+{
+  "name": "@fenix-ui/textfield",
+  "version": "1.0.0",
+  "description": "Textfield/ Input component",
+  "main": "./bundles/textfield.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenix-solutions/fenix-ui.git"
+  },
+  "keywords": [
+    "fenix",
+    "ui",
+    "textfield"
+  ],
+  "author": "jchinc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fenix-solutions/fenix-ui/issues"
+  },
+  "homepage": "https://github.com/fenix-solutions/fenix-ui#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
